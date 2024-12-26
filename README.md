@@ -26,8 +26,7 @@ Create a HTML file and include the needed Bootstrap components.
 Publish the website in the LocalHost.
 
 ## PROGRAM :
-## main page
-```html
+```
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -38,7 +37,7 @@ Publish the website in the LocalHost.
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>
         .hero {
-            background: url('image.avif') no-repeat center center/cover;
+            background: url("KFC\ EPIC\ Campaign.jpeg") no-repeat center center/cover;
             color: white;
             text-align: center;
             padding: 100px 20px;
@@ -62,7 +61,7 @@ Publish the website in the LocalHost.
     <!-- Navigation Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Delicious Eats</a>
+            <a class="navbar-brand" href="#">Desert Hunters</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
@@ -75,10 +74,10 @@ Publish the website in the LocalHost.
                         <a class="nav-link" href="#menu">Menu</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="2.html">About Us</a>
+                        <a class="nav-link" href="about.html">About Us</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="3.html">Contact</a>
+                        <a class="nav-link" href="contact.html">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -87,7 +86,7 @@ Publish the website in the LocalHost.
 
     <!-- Hero Section -->
     <div class="hero">
-        <h1>Welcome to Delicious Eats</h1>
+        <h1>Welcome to Desert Hunters</h1>
         <p>Experience the best food in town!</p>
     </div>
 
@@ -96,15 +95,7 @@ Publish the website in the LocalHost.
         <div class="container">
             <h2 class="text-center mb-4">Our Menu</h2>
             <div class="row g-4">
-                <div class="col-md-4 menu-item">
-                    <div class="card">
-                        <img src="image copy.png" class="card-img-top" alt="Dish 1">
-                        <div class="card-body">
-                            <h5 class="card-title">Grilled Chicken</h5>
-                            <p class="card-text">Juicy grilled chicken served with fresh vegetables.</p>
-                        </div>
-                    </div>
-                </div>
+                
                 <div class="col-md-4 menu-item">
                     <div class="card">
                         <img src="image copy 2.png" class="card-img-top" alt="Dish 2">
@@ -114,12 +105,23 @@ Publish the website in the LocalHost.
                         </div>
                     </div>
                 </div>
+                
                 <div class="col-md-4 menu-item">
                     <div class="card">
-                        <img src="image copy 3.png" class="card-img-top" alt="Dish 3">
+                        <img src="image copy.png" class="card-img-top" alt="Dish 1">
                         <div class="card-body">
-                            <h5 class="card-title">Classic Burger</h5>
-                            <p class="card-text">Our signature burger with fresh ingredients.</p>
+                            <h5 class="card-title">Grilled Chicken</h5>
+                            <p class="card-text">Juicy grilled chicken served with fresh vegetables.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 menu-item">
+                    <div class="card">
+                        <img src="image copy 5.png" class="card-img-top" alt="Dish 5">
+                        <div class="card-body">
+                            <h5 class="card-title">Margherita Pizza</h5>
+                            <p class="card-text">Wood-fired pizza topped with fresh mozzarella.</p>
                         </div>
                     </div>
                 </div>
@@ -129,15 +131,6 @@ Publish the website in the LocalHost.
                         <div class="card-body">
                             <h5 class="card-title">Caesar Salad</h5>
                             <p class="card-text">Crisp romaine lettuce with Caesar dressing.</p>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-md-4 menu-item">
-                    <div class="card">
-                        <img src="image copy 5.png" class="card-img-top" alt="Dish 5">
-                        <div class="card-body">
-                            <h5 class="card-title">Margherita Pizza</h5>
-                            <p class="card-text">Wood-fired pizza topped with fresh mozzarella.</p>
                         </div>
                     </div>
                 </div>
@@ -170,6 +163,15 @@ Publish the website in the LocalHost.
                 </div>
                 <div class="col-md-4 menu-item">
                     <div class="card">
+                        <img src="image copy 3.png" class="card-img-top" alt="Dish 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Classic Burger</h5>
+                            <p class="card-text">Our signature burger with fresh ingredients.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 menu-item">
+                    <div class="card">
                         <img src="image copy 9.png" class="card-img-top" alt="Dish 9">
                         <div class="card-body">
                             <h5 class="card-title">Cheesecake</h5>
@@ -185,7 +187,7 @@ Publish the website in the LocalHost.
     <section id="about" class="py-5 bg-light">
         <div class="container">
             <h2 class="text-center mb-4">About Us</h2>
-            <p class="text-center">At Delicious Eats, we believe in serving fresh, high-quality food made with love. Established in 2020, we have been a favorite spot for locals and tourists alike. Come and enjoy our cozy atmosphere, exceptional service, and a menu crafted with passion.</p>
+            <p class="text-center">At Desert Hunters, we believe in serving fresh, high-quality food made with love. Established in 2020, we have been a favorite spot for locals and tourists alike. Come and enjoy our cozy atmosphere, exceptional service, and a menu crafted with passion.</p>
         </div>
     </section>
 
@@ -195,20 +197,17 @@ Publish the website in the LocalHost.
             <h2 class="text-center mb-4">Contact Us</h2>
             <p class="text-center">Have questions or want to make a reservation? Reach out to us!</p>
             <p class="text-center">Phone: 123-456-7890 | Email: info@deliciouseats.com</p>
-            <p class="text-center">Address: 123 Main Street, Foodie City, FC 12345</p>
+            <p class="text-center">Address: 143 Main Street, Rocky City, FC goa</p>
         </div>
     </section>
 
     <!-- Footer -->
     <footer class="footer text-center p-3">
-        <p>&copy; 2024 K S VINAY SUHIRTHAN(24901151)</p>
+        <p>&copy;RAHUL RIO S SINCE 2024</p>
     </footer>
 </body>
 </html>
 
-```
-## about us
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -220,17 +219,15 @@ Publish the website in the LocalHost.
 <body>
     <div class="container py-5">
         <h1 class="text-center mb-4">About Us</h1>
-        <p>Welcome to Delicious Eats! Established in 2020, our restaurant has been serving fresh and high-quality food to our beloved community. Our chefs are passionate about crafting dishes that not only taste amazing but also leave a lasting impression. From cozy ambiance to exceptional customer service, we are here to make your dining experience unforgettable. Thank you for choosing us!</p>
+        <p>Welcome to Desert Hunters! Established in 2006, our restaurant has been serving fresh and high-quality food to our beloved community. Our chefs are passionate about crafting dishes that not only taste amazing but also leave a lasting impression. From cozy ambiance to exceptional customer service, we are here to make your dining experience unforgettable. Thank you for choosing us!</p>
         <p>Come visit us and discover the taste of love and dedication in every bite!</p>
     </div>
     <footer class="text-center py-3 bg-light">
-        <p>&copy; 2024 K S VINAY SUHIRTHAN (24901151)</p>
+        <p>&copy;RAHUL RIO S SINCE 2006</p>
     </footer>
 </body>
 </html>
-```
-## contact us
-```html
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -243,21 +240,25 @@ Publish the website in the LocalHost.
     <div class="container py-5">
         <h1 class="text-center mb-4">Contact Us</h1>
         <p class="text-center">Have questions or want to make a reservation? Reach out to us!</p>
-        <p class="text-center">Phone: 123-456-7890 | Email: info@deliciouseats.com</p>
-        <p class="text-center">Address: 123 Main Street, Foodie City, FC 12345</p>
+        <p class="text-center">Phone: 123-456-7890 | Email: info@deserthunters.com</p>
+        <p class="text-center">Address: 143 Middle Street, Rocky City, FC goa</p>
     </div>
     <footer class="text-center py-3 bg-light">
-        <p>&copy; 2024 K S VINAY SUHIRTHAN (24901151)</p>
+        <p>&copy; RAHUL RIO S SINCE 2024</p>
     </footer>
 </body>
 </html>
-```
 
+```
 ## OUTPUT:
 
-![alt text](<Screenshot 2024-12-25 231222.png>)
-![alt text](<Screenshot 2024-12-25 231233.png>)
-![alt text](<Screenshot 2024-12-25 231243.png>)
+![alt text](image.png)
+
+![alt text](image-1.png)
+
+![alt text](image-2.png)
+
+![alt text](image-3.png)
 
 ## RESULT:
 The Project for responsive web design using Bootstrap is completed successfully.
